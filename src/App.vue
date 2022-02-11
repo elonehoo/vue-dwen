@@ -22,8 +22,8 @@ let camera, scene, renderer;
 
 				scene = new THREE.Scene();
 
-				const envmap = new THREE.TextureLoader().load( '/src/assets/wieth.png',function(texture){
-					const loader = new GLTFLoader().setPath( '/src/assets/' );
+				const envmap = new THREE.TextureLoader().load( '/wieth.png',function(texture){
+					const loader = new GLTFLoader().setPath( '/' );
 					loader.load( 'dwendwen.gltf', function ( gltf ) {
 						gltf.scene.traverse( function ( child ) {
 							if(child.name=="outer"||child.name=="mask"){
