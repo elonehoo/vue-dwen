@@ -22,7 +22,7 @@ let camera, scene, renderer;
 
 				scene = new THREE.Scene();
 
-				const envmap = new THREE.TextureLoader().load( '/wieth.png',function(texture){
+				const envmap = new THREE.TextureLoader().load( '/logo.png',function(texture){
 					const loader = new GLTFLoader().setPath( '/' );
 					loader.load( 'dwendwen.gltf', function ( gltf ) {
 						gltf.scene.traverse( function ( child ) {
