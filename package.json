@@ -9,7 +9,7 @@
     "server": "vite server"
   },
   "dependencies": {
-    "vue": "3.2.30"
+    "vue": "3.2.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "2.2.0",
