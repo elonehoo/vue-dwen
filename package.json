@@ -9,12 +9,12 @@
     "server": "vite server"
   },
   "dependencies": {
-    "vue": "3.5.18"
+    "vue": "3.5.19"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "5.2.4",
     "typescript": "5.9.2",
     "vite": "6.3.5",
-    "vue-tsc": "3.0.5"
+    "vue-tsc": "3.0.6"
   }
 }
