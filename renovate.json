@@ -1,3 +1,10 @@
 {
-  "extends": ["github>elonehoo/renovate-config"]
+  "extends": ["github>elonehoo/renovate-config"],
+  "automerge": false,
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "automerge": false
+    }
+  ]
 }
