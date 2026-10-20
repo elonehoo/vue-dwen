@@ -1,9 +1,10 @@
 {
   "name": "vue-dwen",
   "private": true,
+  "type": "module",
   "version": "0.0.0",
   "engines": {
-    "node": "24.x"
+    "node": "24.22.0"
   },
   "scripts": {
     "dev": "vite",
@@ -12,12 +13,12 @@
     "server": "vite server"
   },
   "dependencies": {
-    "vue": "3.5.19"
+    "vue": "3.5.44"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "6.0.10",
-    "typescript": "5.9.2",
+    "typescript": "7.0.2",
     "vite": "8.3.4",
-    "vue-tsc": "3.0.6"
+    "vue-tsc": "3.3.13"
   }
 }
